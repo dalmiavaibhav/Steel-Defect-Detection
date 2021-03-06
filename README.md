@@ -18,14 +18,6 @@ credits-
 - The setup consists of a two station PLCs, It simulates machining operations and movements of components around the manufacturing plant on conveyor belts. It also simulates different inspections using RFID, Proximity sensors.
 - We are using Intel realsense D435i camera to capture the image of the component at a desired location and moment.
 
-  
-
-![Steel%20Defect%20Detection%20c2640c68a99045979a30526b056b2b13/IMG_20210226_160648.jpg](Steel%20Defect%20Detection%20c2640c68a99045979a30526b056b2b13/IMG_20210226_160648.jpg)
-
-![Steel%20Defect%20Detection%20c2640c68a99045979a30526b056b2b13/IMG_20210226_160709.jpg](Steel%20Defect%20Detection%20c2640c68a99045979a30526b056b2b13/IMG_20210226_160709.jpg)
-
-![Steel%20Defect%20Detection%20c2640c68a99045979a30526b056b2b13/IMG_20210226_160559.jpg](Steel%20Defect%20Detection%20c2640c68a99045979a30526b056b2b13/IMG_20210226_160559.jpg)
-
 ### Inference
 
 - The model is build in Pytorch and Trained on an Nvidia GPU
@@ -38,8 +30,11 @@ credits-
 - Two types of cases are tested
     - Defective Component
     - Non-defective Component
+- After capturing the image, frame is processed and the result is displayed as a segmentation mask.
 
 ![Steel%20Defect%20Detection%20c2640c68a99045979a30526b056b2b13/IMG_20210226_160658.jpg](Steel%20Defect%20Detection%20c2640c68a99045979a30526b056b2b13/IMG_20210226_160658.jpg)
+
+![Steel%20Defect%20Detection%20c2640c68a99045979a30526b056b2b13/IMG_20210226_160559.jpg](Steel%20Defect%20Detection%20c2640c68a99045979a30526b056b2b13/IMG_20210226_160559.jpg)
 
 ![Steel%20Defect%20Detection%20c2640c68a99045979a30526b056b2b13/IMG_20210226_160753.jpg](Steel%20Defect%20Detection%20c2640c68a99045979a30526b056b2b13/IMG_20210226_160753.jpg)
 
@@ -49,8 +44,6 @@ credits-
 
 ![Steel%20Defect%20Detection%20c2640c68a99045979a30526b056b2b13/p1_Color.png](Steel%20Defect%20Detection%20c2640c68a99045979a30526b056b2b13/p1_Color.png)
 
-- After capturing the image, frame is processed and the result is displayed as a segmentation mask.
+![Steel%20Defect%20Detection%20c2640c68a99045979a30526b056b2b13/1.png](Steel%20Defect%20Detection%20c2640c68a99045979a30526b056b2b13/1.png)
 
 ![Steel%20Defect%20Detection%20c2640c68a99045979a30526b056b2b13/2.png](Steel%20Defect%20Detection%20c2640c68a99045979a30526b056b2b13/2.png)
-
-![Steel%20Defect%20Detection%20c2640c68a99045979a30526b056b2b13/1.png](Steel%20Defect%20Detection%20c2640c68a99045979a30526b056b2b13/1.png)
